@@ -1,0 +1,182 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+# *.ipynb  # 注释掉，允许追踪笔记本文件
+
+# Auto-translated notebooks (keep manual English versions only)
+*_en.ipynb  # Lowercase 'en' = auto-translated (don't upload)
+# *_EN.ipynb files (uppercase 'EN') are manually curated and should be uploaded
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Data files (keep structure, ignore large files)
+data/*/
+*.wav
+*.mp3
+*.mid
+*.midi
+*.zip
+*.tar.gz
+*.rar
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.pickle
+
+# Logs
+*.log
+experiments/logs/*.txt
+experiments/logs/*.csv
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*~
+
+# LaTeX (keep source, ignore compiled)
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# ============================================
+# Project-Specific Exclusions
+# ============================================
+
+# Temporary files
+temp_*.py
+temp_*.txt
+temp_*.md
+*_temp.*
+
+# Private communications (emails to supervisor)
+*jacopo*.txt
+*supervisor*.txt
+Teams_*.txt
+Email_*.txt
+message_*.txt
+reply_*.txt
+
+# Process documentation (internal use only)
+*完成总结.md
+*Week*开始指南.md
+*Day*完成总结.md
+如何使用*.txt
+整理*.bat
+清理*.bat
+*检查*.md
+*指引*.txt
+
+# Windows batch files
+*.bat
+
+# Proposal documents (already submitted)
+docs/提案相关文件/
+docs/Proposal引用文献/
+
+# Nested duplicate directory
+Semester1/Semester1/
+
+# Root directory temporary tools
+/append_cells.py
+/count_cells.py
+/merge_nb*.py
+/temp_*.py
+/temp_*.txt
+/temp_*.md
+
+# HTML exports of notebooks (large files)
+*.html
+
+# Processed dataset features (can be regenerated)
+data/*/features/*.csv
+data/*/processed/*.csv
+!data/*/processed/README.md
+
+# Keep only README in data directories
+data/DEAM/DEAM_audio/
+data/DEAM/DEAM_Annotations/
+data/MuSe/audio*/
+data/PMEmo2019/PMEmo2019/
+data/PMEmo2019/__MACOSX/
+
+# ============================================
+# Exclude for GitHub Upload (Keep Local Only)
+# ============================================
+
+# Chinese notebooks (development only)
+notebooks/notebooks_cn/
+
+# LaTeX reports (process documentation)
+docs/*.tex
+docs/Week*.tex
+
+# Process documentation
+docs/01_background.md
+notebooks/ENGLISH_NOTEBOOKS_STATUS.md
+notebooks/TRANSLATION_STATUS_UPDATED.md
+UPLOAD_FILE_LIST.md
+GITHUB_UPLOAD_GUIDE.md
+
+# Utility scripts (not needed for showcase)
+scripts/add_english_translations.py
+scripts/analyze_muse.py
+scripts/create_muse_baseline.py
+scripts/download_muse_audio.py
+scripts/download_muse_spotify.py
+
+# Git helper scripts (not needed on GitHub)
+git_init_and_push.ps1
+git_init_and_push.sh
+
