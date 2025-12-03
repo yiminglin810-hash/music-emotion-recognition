@@ -155,9 +155,6 @@ data/PMEmo2019/__MACOSX/
 # Exclude for GitHub Upload (Keep Local Only)
 # ============================================
 
-# Chinese notebooks (development only)
-notebooks/notebooks_cn/
-
 # LaTeX reports (process documentation)
 docs/*.tex
 docs/Week*.tex
