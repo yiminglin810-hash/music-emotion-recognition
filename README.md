@@ -1,8 +1,8 @@
 # 🎵 Music Emotion Recognition - Final Year Project
 
-> **Author**: Yiming  
+> **Author**: Yiming Lin  
 > **Supervisor**: Jacopo  
-> **Institution**: [Your University]  
+> **Institution**: University of Liverpool  
 > **Academic Year**: 2024-2025 (Semester 1)
 
 A comprehensive study on **Music Emotion Recognition (MER)** using **traditional machine learning** approaches with **hand-crafted audio features**.
@@ -32,8 +32,8 @@ This project explores emotion recognition in music using the **Valence-Arousal (
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd Semester1
+git clone https://github.com/yiminglin810-hash/music-emotion-recognition.git
+cd music-emotion-recognition
 
 # Install dependencies
 pip install -r requirements.txt
@@ -67,18 +67,20 @@ See [`data/README.md`](data/README.md) for detailed instructions.
 
 ```bash
 # DEAM Dataset (Baseline)
-jupyter notebook notebooks/01_test_data_loader.ipynb
-jupyter notebook notebooks/02_feature_extraction.ipynb
-jupyter notebook notebooks/03_baseline_models.ipynb
+jupyter notebook notebooks/notebooks_en/01_deam_data_loader_EN.ipynb
+jupyter notebook notebooks/notebooks_en/02_deam_feature_extraction_EN.ipynb
+jupyter notebook notebooks/notebooks_en/03_deam_baseline_models_EN.ipynb
 
 # MuSe Dataset
-jupyter notebook notebooks/04_muse_data_analysis.ipynb
-jupyter notebook notebooks/05_muse_baseline_models.ipynb
+jupyter notebook notebooks/notebooks_en/04_muse_data_analysis_EN.ipynb
+jupyter notebook notebooks/notebooks_en/05_muse_feature_extraction_EN.ipynb
+jupyter notebook notebooks/notebooks_en/06_muse_baseline_models_EN.ipynb
 
 # PMEmo Dataset (Main Focus)
-jupyter notebook notebooks/06_pmemo_baseline_models.ipynb  # ⭐ Key notebook
-jupyter notebook notebooks/07_pmemo_paper_replication.ipynb
+jupyter notebook notebooks/notebooks_en/07_pmemo_baseline_models_EN.ipynb  # ⭐ Key notebook
 ```
+
+> 💡 **Note**: Chinese versions are available in `notebooks/notebooks_cn/` for reference.
 
 ---
 
@@ -198,9 +200,16 @@ Semester1/
 ├── .gitignore                   # Git exclusions
 │
 ├── notebooks/                   # Jupyter experiments ⭐
-│   ├── 01-03_*.ipynb            # DEAM baseline
-│   ├── 04-05_*.ipynb            # MuSe experiments
-│   └── 06-07_*.ipynb            # PMEmo experiments (main focus)
+│   ├── notebooks_en/            # English versions (main)
+│   │   ├── 01_deam_data_loader_EN.ipynb
+│   │   ├── 02_deam_feature_extraction_EN.ipynb
+│   │   ├── 03_deam_baseline_models_EN.ipynb
+│   │   ├── 04_muse_data_analysis_EN.ipynb
+│   │   ├── 05_muse_feature_extraction_EN.ipynb
+│   │   ├── 06_muse_baseline_models_EN.ipynb
+│   │   └── 07_pmemo_baseline_models_EN.ipynb
+│   └── notebooks_cn/            # Chinese versions (reference)
+│       └── [Same notebooks in Chinese]
 │
 ├── src/                         # Reusable Python modules
 │   ├── features/                # Feature extraction
@@ -318,10 +327,12 @@ pdflatex PMEmo_Experiment_Results_Simple.tex
 
 ## 📧 Contact
 
-**Student**: Yiming  
+**Student**: Yiming Lin  
 **Supervisor**: Jacopo  
-**Email**: [Your Email]  
-**GitHub**: [Your GitHub Profile]
+**Institution**: University of Liverpool  
+**Email**: sgylin19@liverpool.ac.uk  
+**GitHub**: https://github.com/yiminglin810-hash  
+**Portfolio**: https://yiminglin-portfolio.netlify.app
 
 ---
 
