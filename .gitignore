@@ -52,13 +52,11 @@ data/*/
 *.tar.gz
 *.rar
 
-# Model checkpoints (PyTorch, Keras)
+# Model checkpoints (PyTorch and Keras only - scikit-learn models are allowed)
 *.pth
 *.pt
 *.ckpt
 *.h5
-# *.pkl  # Commented out - allow uploading scikit-learn models
-# *.pickle
 
 # Logs
 *.log
